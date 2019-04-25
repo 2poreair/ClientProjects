@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context="com.allhustlenoluck.developer.snax2poreair.spiritualsoldierringtones.SpiritualSoldierRingtone">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "1"
+        android:background="#b0afaf"
+        android:id="@+id/lvssr" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="www.cdbaby.com/cd/michaelblakelyakaspiritu"
+        android:id="@+id/tvLink"
+        android:textColor="#7FFFD4"
+        android:autoLink="web"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Click above link for more works"
+        android:id="@+id/tvlabel1"
+        android:textColor="#7FFFD4"
+        android:layout_gravity="center_horizontal" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/wvpreview" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="DOWNLOAD"
+            android:id="@+id/bdown" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="My Library"
+            android:id="@+id/bLib" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pbdownload"
+        android:visibility="gone"/>
+</LinearLayout>
