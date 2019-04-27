@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StoreExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbava">Avatars:</string>
+    <string name="lbcard">Back of Cards:</string>
+    <string name="lbtable">Table Tops:</string>
+</resources>
