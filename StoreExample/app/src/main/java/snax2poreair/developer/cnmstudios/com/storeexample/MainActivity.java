@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     List<Product> pListAva, pListBack, pListTable;
 
-    String url = "http://cnmstudios.com/v3rify.php";
+    String url = "http://cnmstudios.com/s3v3rc0nt3nt.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
